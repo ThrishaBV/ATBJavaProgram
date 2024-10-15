@@ -5,7 +5,8 @@ public class operators {
         //Assignment operator
         int a=30;
        int b=5;
-       String s1="Thrish";
+       System.out.println(b%a);
+       /*String s1="Thrish";
         String s2="abv";
         //arithmetic operator
         System.out.println(a+b);
@@ -26,6 +27,6 @@ public class operators {
         boolean x=!(a>b)&&(b>10);
         System.out.println(x);
         boolean w=(a==b)||(b>a);
-        System.out.println(w);
+        System.out.println(w);*/
     }
 }
