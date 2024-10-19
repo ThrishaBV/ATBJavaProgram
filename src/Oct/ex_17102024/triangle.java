@@ -7,13 +7,15 @@ public class triangle {
         int a= sc.nextInt();
         int b= sc.nextInt();
         int c=sc.nextInt();
+
         if(a==b && b==c ){
             System.out.println("Equilateral triangle");
         }
         else if(a==b || b==c|| c==a){
             System.out.println("Isosceles triangle");
-        }
-        else {
+        } else if (a<=0||b<=0||c<=0) {
+            System.out.println("Invalid");
+        } else {
             System.out.println("Scalene triangle");
         }
     }

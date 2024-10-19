@@ -16,8 +16,9 @@ public class if_elseif_else {
         }
         else if (m>=69) {
             System.out.println("Grade D");
-        }
-        else {
+        } else if (m<=0 || m>100) {
+            System.out.println("LOL");
+        } else {
             System.out.println("Grade F");
         }
 
